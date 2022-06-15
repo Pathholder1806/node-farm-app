@@ -1,0 +1,19 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "A web app for a farm-based products store developed in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pathholder1806/node-farm-app.git"
+  },
+  "author": "Yashjeet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pathholder1806/node-farm-app/issues"
+  },
+  "homepage": "https://github.com/Pathholder1806/node-farm-app#readme"
+}
