@@ -71,11 +71,8 @@ const server = http.createServer((req, res) => {
 });
 
 const port = process.env.PORT || 8000;
+const host = "0.0.0.0";
 
-server.listen(
-    port,
-    "https://yashjeet-singh-node-farm-app.herokuapp.com",
-    () => {
-        console.log(`Listening for requests on PORT: ${port}`);
-    }
-);
+server.listen(port, host, () => {
+    console.log(`Listening for requests on PORT: ${port}`);
+});
