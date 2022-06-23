@@ -4,7 +4,7 @@
   "description": "A web app for a farm-based products store developed in NodeJS",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
