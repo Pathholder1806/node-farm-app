@@ -4,7 +4,7 @@
   "description": "A web app for a farm-based products store developed in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Pathholder1806/node-farm-app/issues"
   },
-  "homepage": "https://github.com/Pathholder1806/node-farm-app#readme"
+  "homepage": "https://github.com/Pathholder1806/node-farm-app#readme",
+  "dependencies": {
+    "slugify": "^1.6.5",
+    "superagent": "^7.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
