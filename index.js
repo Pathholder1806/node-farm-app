@@ -74,7 +74,7 @@ const port = process.env.PORT || 8000;
 
 server.listen(
     port,
-    "https://yashjeet-singh-node-farm-app.herokuapp.com/",
+    "https://yashjeet-singh-node-farm-app.herokuapp.com",
     () => {
         console.log(`Listening for requests on PORT: ${port}`);
     }
